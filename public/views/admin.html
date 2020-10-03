@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+.form-wrap{ width: 25%; height: 28%; align-items: center; justify-content: center; border-radius: 1pc; border: 2px solid rgb(0,0,0); /*box-shadow: 0 0 12px 0 rgb(8, 8, 8);*/
+
+background-color: #ffffff; background: absolute ; background-size: cover; padding: 140px 150px;/* box-sizing:inherit;*/ position: absolute; left: 35%; top: 50%; transform: translate(-50%, -50%);}
+
+input[type="button"] {/*This is stop button*/
+     background: rgb(212, 226, 211); 
+     border: 0; cursor: pointer; 
+     color: #3e3d3d;
+   }
+
+.box{ width: 25%; height: 60%; text-align: center ; justify-content: center; border-radius: 1pc; border: 2px solid rgb(0, 0, 0); /*box-shadow: 0 0 12px 0 rgb(8, 8, 8);*//*This is student name box css*/
+
+background-color: #ffffff; background-size: cover; padding: 100px ; box-sizing:inherit; position: absolute; right: -70%; top: 0%;/*overflow-y:auto; overflow-x: hidden;*/}
+textarea/*This is student name box css*/
+
+.box{
+   font-size: 45px;
+   font-family:"Arial", Times, serif;
+}
+.box h1{
+    left: 30%;
+
+}
+
+body
+{
+margin: 0;
+padding: 0;
+background: rgb(255 , 255, 255);
+/*background: url(https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+background-size: cover;
+background-position: center;*/
+font-family: sans-serif;
+}
+
+.form-wrap input[type="submit"]{/*Ask button*/
+width: 40%;
+border: none;
+outline: none;
+height: 40px;
+background: #E74C3C;
+color: #fff;
+font-size: 18px;
+border-radius: 20px;
+position: absolute;
+left: 5%;
+top: 75%;}
+
+.form-wrap input[type="submit"]:hover{
+cursor: pointer;
+background: #2ECC71;
+color: #000;}
+
+
+.form-wrap input[type="button"]{/*stop button*/
+width: 40%;
+border: none;
+outline: none;
+height: 40px;
+background: #E74C3C;
+color: #fff;
+font-size: 18px;
+border-radius: 20px;
+position: absolute;
+left: 52%;
+top: 75%;}
+
+.form-wrap input[type="button"]:hover{
+cursor: pointer;
+background: #ff0000;
+color: #000;}
+
+
+h1{
+   color: orange;
+   position: absolute;
+   left: 40%;
+   top: 0%;
+}
+
+textarea{
+   position: absolute;
+   left: 65px;
+   top: 150px;
+   font-size: 35px;
+   font-family:"Arial", Times, serif;
+   width: 82%;
+   margin-bottom: 20px;
+   border: none;
+   outline: none;
+   border-bottom: 1px solid #000;
+   background: transparent;
+   height: 50px;
+   color: #111;
+   resize: none;
+   }
+
+input[type="radio"]{
+    position: relative;
+    left: -10%;
+   border: 0px;
+   width: 30%;
+   height: 3em;
+}    
+
+input[type="radio"]+ label {
+   color:#000;
+   font-family:Arial, sans-serif;
+   font-size:28px;
+   position: relative;
+   left: -15%;
+}
+
+/* responsive css */
+        
+@media screen and (max-width: 780px) {
+
+
+    .form-wrap{ width: 5%; height: 8%; align-items: center; justify-content: center; border-radius: 1pc; border: 2px solid rgb(0,0,0); /*box-shadow: 0 0 12px 0 rgb(8, 8, 8);*/
+
+background-color: #ffffff; background: absolute ; background-size: cover; padding: 140px 150px;/* box-sizing:inherit;*/ position: absolute; left: 50%; top: 25%; transform: translate(-50%, -50%);}
+
+input[type="button"] {/*This is stop button*/
+     background: rgb(212, 226, 211); 
+     border: 0; cursor: pointer; 
+     color: #3e3d3d;
+   }
+
+.box{ width: 35%; height: 10%; text-align: center ; justify-content: center; border-radius: 1pc; border: 2px solid rgb(0, 0, 0); /*box-shadow: 0 0 12px 0 rgb(8, 8, 8);*//*This is student name box css*/
+
+background-color: #ffffff; background-size: cover; padding: 100px ; box-sizing:inherit; position: absolute; left: 0%; top: 105%;/*overflow-y:auto; overflow-x: hidden;*/}
+textarea/*This is student name box css*/
+
+.box{
+   font-size: 45px;
+   font-family:"Arial", Times, serif;
+}
+.box h1{
+    left: 30%;
+
+}
+
+body
+{
+margin: 0;
+padding: 0;
+background: rgb(255 , 255, 255);
+/*background: url(https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+background-size: cover;
+background-position: center;*/
+font-family: sans-serif;
+}
+
+.form-wrap input[type="submit"]{/*Ask button*/
+width: 40%;
+border: none;
+outline: none;
+height: 40px;
+background: #E74C3C;
+color: #fff;
+font-size: 18px;
+border-radius: 20px;
+position: absolute;
+left: 5%;
+top: 75%;}
+
+.form-wrap input[type="submit"]:hover{
+cursor: pointer;
+background: #2ECC71;
+color: #000;}
+
+
+.form-wrap input[type="button"]{/*stop button*/
+width: 40%;
+border: none;
+outline: none;
+height: 40px;
+background: #E74C3C;
+color: #fff;
+font-size: 18px;
+border-radius: 20px;
+position: absolute;
+left: 52%;
+top: 75%;}
+
+.form-wrap input[type="button"]:hover{
+cursor: pointer;
+background: #ff0000;
+color: #000;}
+
+
+h1{
+   font-size: 130%; 
+   color: orange;
+   position: absolute;
+   left: 35%;
+   top: 0%;
+}
+
+textarea{
+   position: absolute;
+   left: 6%;
+   top: 30%;
+   font-size: 90%;
+   font-family:"Arial", Times, serif;
+   width: 82%;
+   margin-bottom: 1px;
+   border: none;
+   outline: none;
+   border-bottom: 1px solid #000;
+   background: transparent;
+   height: 25px;
+   color: #111;
+   resize: none;
+   }
+
+#Desc{
+    position: absolute;
+    top: 53%;
+    left: 0%;
+    width: 30%;
+    height: 1.5em;
+}
+
+#Poll{
+    position: absolute;
+    top: 53%;
+    left: 40%;
+    width: 30%;
+    height: 1.5em;
+}
+
+input[id="Desc"]+ label {
+   color:#000;
+   font-family:Arial, sans-serif;
+   font-size:25px;
+   position: absolute;
+   left: 25%;
+   top: 53%;
+}
+
+input[id="Poll"]+ label {
+   color:#000;
+   font-family:Arial, sans-serif;
+   font-size:25px;
+   position: absolute;
+   left: 66%;
+   top: 53%;
+}
+}
+
+
+</style>
+</head>
+<body style="background: #34495E">
+    <div class="form-wrap">
+        <form id="administration">
+            <h1>Question</h1>
+            <br>
+            <textarea name="question" id="QnA" cols="35" rows="5"placeholder="Enter your Question "></textarea>
+            <br><br><br>
+            <br><br>
+            <input type="radio" id="Desc" name="question" value="QnA">
+            <label for="Desc">Q&A</label>
+            <input type="radio" id="Poll" name="question" value="Poll">
+            <label for="Poll">Poll</label>
+            <br><br>
+            <input type="submit" name="" value="Ask">
+            <input type="button" onclick="getResults()" value="Stop">
+            <br><br><br><br>
+
+            <div class="box">
+                <div>
+                    <h1> Students</h1>
+                </div>
+                <div>
+
+                </div>
+                
+            </div>
+
+        </form>
+       
+        <script src="socket.io/socket.io.js"></script>
+        <script src="JS/list.js"></script>
+        
+        <script src="socket.io/socket.io.js"></script>
+        <script src="JS/admin.js"></script>
+
+        </div>
+    
+    </body>
+</html>
+

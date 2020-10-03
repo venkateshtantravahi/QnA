@@ -1,0 +1,10 @@
+{ _id: 5f5bc166ec9432ca106daad9,
+  name: 'sushi',
+  Answer: '5k',
+  __v: 0 },{ _id: 5f5bc16eec9432ca106daada,
+  name: 'venky',
+  Answer: '7k',
+  __v: 0 },{ _id: 5f5bc176ec9432ca106daadb,
+  name: 'swaru',
+  Answer: '10k',
+  __v: 0 }

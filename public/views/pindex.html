@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+                *{margin: 0; padding: 0;}
+                body{font-family: sans-serif; background: #34495E ;}
+                .form-wrap{ width: 35%; height: 35%; border-radius: 1pc; border: 2px solid floralwhite; white-space: initial; word-wrap: break-word; overflow: auto;
+            background-color: #ffffff; background-size: cover; padding: 40px 20px; box-sizing:inherit; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);}
+            h3{text-align: left; color:black; font-weight: normal; margin-bottom: 20px; font-family: sans-serif;}
+            input[type=radio]:focus{border-color: rgb(247, 246, 237); box-shadow: 0 0 8px 0 rgb(240, 239, 233); transition: .10s;}
+            input[type=submit]:focus{border-color: rgb(241, 234, 234); box-shadow: 0 0 8px 0 rgb(240, 234, 234); transition: .10s; cursor: pointer;}
+            .box{ width: 320px; height: 130px; border-radius: 1pc; border: 2px solid rgb(100, 95, 95); box-shadow: 0 0 12px 0 rgb(8, 8, 8);
+            background-color: #92afae; background-size: cover; padding: 40px 20px; box-sizing:inherit; position: absolute; right: -1%;}
+            
+            #studbut{
+                width: 40%;
+                border: none;
+                outline: none;
+                height: 40px;
+                background: #E74C3C;
+                color: #fff;
+                font-size: 18px;
+                border-radius: 20px;
+                position: absolute;
+                left: 30%;
+                top: 70%;
+            }
+            h3{
+                font-size: 30px;
+            }
+            #pull{
+                color:#000;
+                font-family:Arial, sans-serif;
+                font-size:28px;
+                position: relative;
+                left: 0%;
+                top: 50%;
+                width: 30%;
+                height: 25px;
+            }
+            input[type="radio"]+ label {
+                color:#000;
+                font-family:Arial, sans-serif;
+                font-size:28px;
+                position: relative;
+                left: -5%;  
+            }
+            #user{
+                position: absolute;
+                left: 65px;
+                top: 150px;
+                font-size: 25px;
+                font-family:"Arial", Times, serif;
+                width: 76%;
+                margin-bottom: 20px;
+                border: none;
+                outline: none;
+                border-bottom: 1px solid #000;
+                background: transparent;
+                height: 30px;
+                color: #111;
+                resize: none;
+            }
+            #subbtn{
+                width: 40%;
+                border: none;
+                outline: none;
+                height: 40px;
+                background: #E74C3C;
+                color: #fff;
+                font-size: 18px;
+                border-radius: 20px;
+                position: absolute;
+                left: 52%;
+                top: 75%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="form-wrap">
+        
+            <div class="content"></div>
+
+        </div>
+        <script src="socket.io/socket.io.js"></script>
+        <script src="./JS/list.js"></script>
+        <script src="./JS/user.js"></script>
+    </body>
+</html>     

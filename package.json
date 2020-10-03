@@ -1,0 +1,23 @@
+{
+  "name": "qna",
+  "version": "1.0.0",
+  "description": "Real Time question answer session",
+  "main": "server.js",
+  "dependencies": {
+    "downloadjs": "^1.4.7",
+    "express": "^4.17.1",
+    "fast-csv": "^4.3.2",
+    "json-2-csv": "^3.7.6",
+    "mongodb": "^3.6.1",
+    "mongoose": "^5.10.4",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Swaraj prateek",
+  "license": "ISC"
+}

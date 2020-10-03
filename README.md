@@ -1,2 +1,1 @@
 # QnA
-QnA app

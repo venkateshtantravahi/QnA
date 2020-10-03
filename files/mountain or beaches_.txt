@@ -1,0 +1,4 @@
+{ _id: 5f5bf1acaad9c70405f9449e,
+  name: 'swaru',
+  Answer: 'mountains',
+  __v: 0 }
